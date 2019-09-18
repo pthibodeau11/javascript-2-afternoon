@@ -85,7 +85,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
@@ -106,7 +106,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = "Bryan G. Smith";
+user2.email = "bryan.smith@devmounta.in";
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
