@@ -15,7 +15,12 @@
 */
 
 //Code here
+var me = {
+  name: "Pat",
+  age: 32
+}
 
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,13 +29,22 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: "MXPX",
+  food: "pizza",
+  person: "Jess",
+  book: "Masters of Doom",
+  movie: "The Life Aquatic",
+  holiday: "Christmas"
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
+favoriteThings.car = "Lamborghini";
+favoriteThings.brand = "Apple";
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,7 +52,8 @@
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,13 +65,19 @@
 */
 
 //Code here
+var backPack = {
+
+}
+var item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "black";
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
